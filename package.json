@@ -1,0 +1,30 @@
+{
+  "name": "crypto-candy",
+  "version": "1.0.0",
+  "description": "Buy candies with BTC!",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "author": "Miguel Medeiros",
+  "email": "miguel@miguelmedeiros.com.br",
+  "url": "http://www.miguelmedeiros.com.br/",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "candy",
+    "crypto candies",
+    "bitcoin",
+    "raspberry pi",
+    "gpio"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "pigpio": "^1.1.0",
+    "websocket": "^1.0.26"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
